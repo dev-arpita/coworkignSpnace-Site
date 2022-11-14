@@ -47,26 +47,11 @@ h1 {
 }
 
 .item-img {
-    /*
-Challenge:
-1. Find the cause of the white space between
-   the top of the button and the bottom of
-   the image and eliminate it!
-*/
-    width: 100%;
     display: block;
-
+    width: 100%;
 }
 
 .caption {
-    /*
-Challenge:
-1. Position the text and button at opposite
-   ends of the parent element. Make sure that
-   there is always at least 20px of space
-   between the button and the text, even when
-   you make the browser narrower.
-*/
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -81,19 +66,37 @@ Challenge:
     color: whitesmoke;
     padding: 10px;
 }
+
 button {
-    /*
-Challenge:
-1. Centrally align the button on the
-   vertical axis so it looks like the
-   screenshot on the slide.
-*/
+    align-self: center;
     border: none;
     background-color: #cd6858;
     color: whitesmoke;
     padding: 10px 15px;
     font-weight: 700;
     cursor: pointer;
-    /* margin: auto; */
-    align-self: center;
+}
+
+.chatbox-bg {
+    /*
+Challenge:
+1. Position the chatbox in the bottom
+   corner of the window, 6px from bottom
+   and 6px from the right.
+*/
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+}
+
+.chatbox-img {
+    margin: auto;
+    width: 50%;
 }
