@@ -4,6 +4,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #282828;
 }
+.container {
+    width: 600px;
+    margin: 0 auto;
+
+}
 
 header {
     background-color: #282828;
