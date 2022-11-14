@@ -81,12 +81,19 @@ Challenge:
     color: whitesmoke;
     padding: 10px;
 }
-
 button {
+    /*
+Challenge:
+1. Centrally align the button on the
+   vertical axis so it looks like the
+   screenshot on the slide.
+*/
     border: none;
     background-color: #cd6858;
     color: whitesmoke;
     padding: 10px 15px;
     font-weight: 700;
     cursor: pointer;
+    /* margin: auto; */
+    align-self: center;
 }
